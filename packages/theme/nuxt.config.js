@@ -34,11 +34,11 @@ export default {
       // @core-development-only-end
       useRawSource: {
         dev: [
-          '@vue-storefront/boilerplate',
+          '@vue-storefront/commerce-js',
           '@vue-storefront/core'
         ],
         prod: [
-          '@vue-storefront/boilerplate',
+          '@vue-storefront/commerce-js',
           '@vue-storefront/core'
         ]
       }
@@ -47,8 +47,8 @@ export default {
     ['@vue-storefront/nuxt-theme', {
       generate: {
         replace: {
-          apiClient: '@vue-storefront/boilerplate-api',
-          composables: '@vue-storefront/boilerplate'
+          apiClient: '@vue-storefront/commerce-js-api',
+          composables: '@vue-storefront/commerce-js'
         }
       }
     }],
@@ -56,7 +56,7 @@ export default {
     /* project-only-start
     ['@vue-storefront/nuxt-theme'],
     project-only-end */
-    ['@vue-storefront/boilerplate/nuxt', {}]
+    ['@vue-storefront/commerce-js/nuxt', {}]
   ],
   modules: [
     'nuxt-i18n',

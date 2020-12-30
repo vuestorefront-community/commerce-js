@@ -174,7 +174,7 @@ import {
   SfCheckbox
 } from '@storefront-ui/vue';
 import { ref, watch, onMounted, computed } from '@vue/composition-api';
-import { useCheckout, useUser, useUserBilling, userBillingGetters } from '@vue-storefront/boilerplate';
+import { useCheckout, useUser, useUserBilling, userBillingGetters } from '@vue-storefront/commerce-js';
 
 const COUNTRIES = [
   { key: 'US',

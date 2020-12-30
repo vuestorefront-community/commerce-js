@@ -1,4 +1,4 @@
-import { integrationPlugin } from '@vue-storefront/boilerplate';
+import { integrationPlugin } from '@vue-storefront/commerce-js';
 
 const moduleOptions = JSON.parse('<%= JSON.stringify(options) %>');
 

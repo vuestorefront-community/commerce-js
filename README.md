@@ -6,10 +6,7 @@
 
 > **Disclaimer:** This project is still in beta phase.
 
-This repository is a starting point for creating new integrations for [Vue Storefront Next](https://github.com/DivanteLtd/vue-storefront/tree/next).
-
-* [Documentation](https://docs-next.vuestorefront.io/integrate/ecommerce.html#scope) (WIP)
-
+This repository is the integration of [Commerce.js](https://commercejs.com/) and [Vue Storefront Next](https://github.com/DivanteLtd/vue-storefront/tree/next).
 
 This repository is a monorepo containing three projects:
 
@@ -19,21 +16,19 @@ This repository is a monorepo containing three projects:
 
 ## How to start?
 
-1. Change all `@vue-storefront/boilerplate` strings to your integration name (eg `@vue-storefront/super-ecomm`)
-
-2. Install all required dependencies:
+1. Install all required dependencies:
 
 ```sh
 yarn install
 ```
 
-3. (optional) Then you can verify if everything works properly by building all three projects:
+2. (optional) Then you can verify if everything works properly by building all three projects:
 
 ```sh
 yarn build
 ```
 
-4. If everything built properly, you can start creating your new integration with:
+3. If everything built properly, you can start using your new integration with:
 
 ```sh
 yarn dev
