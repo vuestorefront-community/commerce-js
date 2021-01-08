@@ -1,10 +1,10 @@
 # theme
 
-> Boilerplate theme
+> Basic theme
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 

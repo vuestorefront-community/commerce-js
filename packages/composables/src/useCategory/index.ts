@@ -9,7 +9,7 @@ import { Category } from '../types';
 
 const params: UseCategoryFactoryParams<Category, any> = {
   categorySearch: async (context: Context, params, customQuery?: CustomQuery) => {
-    return await context.$boilerplate.api.getCategory(params, customQuery);
+    return await context.$commercejs.api.getCategory(params, customQuery);
   }
 };
 

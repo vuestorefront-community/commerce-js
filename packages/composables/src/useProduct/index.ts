@@ -10,7 +10,7 @@ import { UseProduct, Product } from '../types';
 
 const params: UseProductFactoryParams<Product, any> = {
   productsSearch: async (context: Context, params: ProductsSearchParams, customQuery?: CustomQuery): Promise<ProductsSearchResult<Product>> => {
-    return await context.$boilerplate.api.getProduct(params, customQuery);
+    return await context.$commercejs.api.getProduct(params, customQuery);
   }
 };
 

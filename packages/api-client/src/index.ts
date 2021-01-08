@@ -13,7 +13,7 @@ const onSetup = (settings) => ({
 });
 
 const { createApiClient } = apiClientFactory<any, any>({
-  tag: 'boilerplate',
+  tag: 'commercejs',
   onSetup,
   api: {
     getProduct,
